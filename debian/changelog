@@ -1,0 +1,5 @@
+dnsgobin (0.0.1-1) bionic; urgency=medium
+
+  * Initial package for ubuntu. Visit http://nullsecurity.net for more info
+
+ -- Cult of Dead Beef <cultofdeadbeef@mail.ru>  Mon, 26 Nov 2018 15:20:41 -0800

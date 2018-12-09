@@ -1,0 +1,24 @@
+Source: dnsgobin
+Section: net
+Priority: optional
+Maintainer: Cult of Dead Beef <cultofdeadbeef@mail.ru>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
+Homepage: http://nullsecurity.net
+#Vcs-Git: https://anonscm.debian.org/git/collab-maint/dnsgobin.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/dnsgobin.git
+
+Package: dnsgobin
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: dns crawler
+ Nasty creature constantly searching for DNS servers. It uses standard 
+ dns querys and waits for the replies.
+ .
+ Author: atzeton
+ .
+ Disclaimer
+ We hereby emphasize, that the hacking related stuff on [nullsecurity.net]
+ (http://nullsecurity.net) is only for education purposes. We are not responsible 
+ for any damages. You are responsible for your own actions.
+
